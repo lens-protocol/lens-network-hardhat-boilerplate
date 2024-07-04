@@ -17,12 +17,11 @@ const config: HardhatUserConfig = {
   networks: {
     lensTestnet: {
       chainId: 37111,
+      ethNetwork: "sepolia", // or a Sepolia RPC endpoint from Infura/Alchemy/Chainstack etc.
       url: "https://rpc.staging.lens-network.crtlkey.com",
-      ethNetwork:
-        "https://eth-sepolia.g.alchemy.com/v2/aIPWSzsW7W7Xqa3vI9FCrosmQs5puLGe", // The Ethereum Web3 RPC URL.
-      zksync: true,
       verifyURL:
         "https://api-explorer-verify.staging.lens.zksync.dev/contract_verification",
+      zksync: true,
     },
     hardhat: {
       zksync: true,
