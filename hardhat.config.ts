@@ -18,7 +18,7 @@ const config: HardhatUserConfig = {
     lensTestnet: {
       chainId: 37111,
       ethNetwork: "sepolia", // or a Sepolia RPC endpoint from Infura/Alchemy/Chainstack etc.
-      url: "https://rpc.staging.lens-network.crtlkey.com",
+      url: "https://sepolia.rpc.lens.dev",
       verifyURL:
         "https://api-explorer-verify.staging.lens.zksync.dev/contract_verification",
       zksync: true,
