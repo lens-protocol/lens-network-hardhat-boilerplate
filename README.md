@@ -98,7 +98,7 @@ yarn test --network lensTestnet
 
 ### Deploy <!-- omit in toc -->
 
-```text
+```bash
 yarn deploy --script <deploy-script.ts> --network <network-name>
 ```
 
