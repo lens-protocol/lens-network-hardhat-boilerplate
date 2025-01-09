@@ -3,6 +3,7 @@ import "@matterlabs/hardhat-zksync";
 import "@nomicfoundation/hardhat-chai-matchers";
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomiclabs/hardhat-solhint";
+import "@nomicfoundation/hardhat-foundry";
 
 import { HardhatUserConfig } from "hardhat/config";
 

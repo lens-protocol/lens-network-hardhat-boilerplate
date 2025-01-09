@@ -40,3 +40,5 @@ era_test_node.log
 # misc
 .DS_Store
 *.pem
+
+zkout/

@@ -96,6 +96,28 @@ yarn test --network lensTestnet
 > [!TIP]
 > zkSync In-memory Node currently supports only the L2 node. If contracts also need L1, use another testing environment like [Dockerized Node](https://docs.zksync.io/build/test-and-debug/dockerized-l1-l2-nodes).
 
+#### Testing With Foundry
+
+A faster alternative for test running is to utilize Foundry to run tests on the Hardhat project.
+
+First install the ZKSync Foundry library:
+
+```bash
+curl -L https://raw.githubusercontent.com/matter-labs/foundry-zksync/main/install-foundry-zksync | bash
+```
+
+Switch to Foundry ZKSync version:
+
+```bash
+foundryup-zksync
+```
+
+Run tests:
+
+```bash
+FOUNDRY_PROFILE=zksync forge test --zksync
+```
+
 ### Deploy <!-- omit in toc -->
 
 ```bash
