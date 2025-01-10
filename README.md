@@ -87,7 +87,7 @@ To run tests on a specific network:
 yarn test [--network <network-name>]
 ```
 
-For example, to run tests on the `lensTestnet` network:
+For example, to run Hardhat tests (\*.test.ts) on the `lensTestnet` network:
 
 ```bash
 yarn test --network lensTestnet
@@ -112,7 +112,13 @@ Switch to Foundry ZKSync version:
 foundryup-zksync
 ```
 
-Run tests:
+To run Foundry tests (\*.t.sol) on the `lensTestnet` network, compile contract source:
+
+```bash
+FOUNDRY_PROFILE=zksync forge compile --zksync
+```
+
+Then run tests:
 
 ```bash
 FOUNDRY_PROFILE=zksync forge test --zksync
