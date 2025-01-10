@@ -42,3 +42,6 @@ era_test_node.log
 *.pem
 
 zkout/
+cache_forge/
+cache_hardhat-zk/
+out/
