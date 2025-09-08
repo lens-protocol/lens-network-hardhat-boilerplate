@@ -11,8 +11,10 @@ const config: HardhatUserConfig = {
     version: "0.8.24",
   },
   zksolc: {
-    version: "latest",
-    settings: {},
+    version: "1.5.12",
+    settings: {
+      codegen: "yul",
+    },
   },
   networks: {
     lensTestnet: {
